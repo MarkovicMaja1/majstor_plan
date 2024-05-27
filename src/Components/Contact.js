@@ -9,7 +9,9 @@ const Contact = () => {
         
       majstorplan@gmail.com
       </div> */}
+      <h5> <br/> <br/> <br/>Napomena: Imamo nekoliko različitih timova ljudi i svaki je zadužen za odeđeni segment. Popust za trudnice i buduće tate 15%</h5>
     </div>
+    
   );
 };
 
