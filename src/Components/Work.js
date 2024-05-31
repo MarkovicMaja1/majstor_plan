@@ -3,6 +3,7 @@ import PickMeals from "../Assets/ceramics.png";
 import ChooseMeals from "../Assets/floor.png";
 import DeliveryMeals from "../Assets/gips.jpg";
 import miniBager from '../Assets/mbg.webp'
+import Kamera from '../Assets/ip-kamere.png'
 
 const Work = () => {
   const workInfoData = [
@@ -27,8 +28,9 @@ const Work = () => {
       text: "Osiguravamo profesionalne usluge iskopa mini bagerom, postavljanja behatona i uređenja dvorišta. Bez obzira na vaše potrebe, možete računati na nas za kvalitetnu izradu i uredjenje vašeg prostora."
     },
     {
+      image: Kamera,
       // Dodajemo novu karticu za Postavljanje sigurnosnih kamera i automatizacija prostora
-      title: "Postavljanje sigurnosnih kamera i automatizacija prostora (ACDC Novi Sad)",
+      title: "Postavljanje sigurnosnih kamera (ACDC Novi Sad)",
       text: "Nudimo usluge postavljanja sigurnosnih kamera i automatizacije prostora za vašu bezbednost i udobnost. Naš tim stručnjaka će vam pomoći da osigurate svoj prostor i olakšate svakodnevne aktivnosti uz najnovije tehnološke inovacije."
     },
   ];
