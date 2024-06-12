@@ -4,6 +4,8 @@ import ChooseMeals from "../Assets/floor.png";
 import DeliveryMeals from "../Assets/gips.jpg";
 import miniBager from '../Assets/mbg.webp'
 import Kamera from '../Assets/ip-kamere.png'
+import Klima from '../Assets/Pingvin-logo-01.png'
+import VrataLogo from '../Assets/ALTIMAX-LOGO.png'
 
 const Work = () => {
   const workInfoData = [
@@ -13,7 +15,8 @@ const Work = () => {
       text: "Naša kompanija pruža vrhunske usluge keramike. Bez obzira da li je u pitanju postavljanje pločica u kupatilu, kuhinji ili na podu, možete računati na nas za kvalitetnu i preciznu instalaciju koja će vaš prostor učiniti lepšim i funkcionalnijim."
     },
     {
-      image: ChooseMeals,
+      image: VrataLogo,
+      image1: ChooseMeals,
       title: "Postavljanje vrata",
       text: "Naši majstori poseduju bogato iskustvo i veštine kako bi osigurali da vaša vrata budu pravilno postavljena, funkcionalna i estetski privlačna."
     },
@@ -33,11 +36,12 @@ const Work = () => {
       title: "Postavljanje sigurnosnih kamera (ACDC Novi Sad)",
       text: "Nudimo usluge postavljanja sigurnosnih kamera i automatizacije prostora za vašu bezbednost i udobnost. Naš tim stručnjaka će vam pomoći da osigurate svoj prostor i olakšate svakodnevne aktivnosti uz najnovije tehnološke inovacije."
     },
+    
   ];
 
   // Stil za smanjenje veličine slike ChooseMeals
   const chooseMealsImageStyle = {
-    width: "50%", // Postavljanje širine slike na 50% originalne veličine
+    width: "40%", // Postavljanje širine slike na 50% originalne veličine
     height: "auto" // Automatsko podešavanje visine kako bi se očuvale proporcije
   };
 
@@ -56,7 +60,10 @@ const Work = () => {
             <div className="info-boxes-img-container">
               {data.title === "Postavljanje vrata" ? (
                 // Provera da li je slika ChooseMeals
-                <img src={data.image} alt="" style={chooseMealsImageStyle} />
+                <>
+                <img src={data.image} alt=""  />
+                <img src={data.image1} alt="" style={chooseMealsImageStyle} />
+                </>
               ) : (
                 // Ostale slike ostaju u originalnoj veličini
                 <img src={data.image} alt="" />

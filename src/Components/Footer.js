@@ -21,18 +21,18 @@ const Footer = () => {
       </div>
       <div className="footer-section-two">
         <div className="footer-section-columns">
-          <span>Qualtiy</span>
-          <span>Help</span>
+          <span></span>
+          <span></span>
         
         </div>
         <div className="footer-section-columns">
-          <span>063 1249931</span>
+          <span></span>
           <span>majstorplan@gmail.com</span>
           
         </div>
         <div className="footer-section-columns">
-          <span>Terms & Conditions</span>
-          <span>Privacy Policy</span>
+          <span></span>
+          <span>063 1249931</span>
         </div>
       </div>
 
